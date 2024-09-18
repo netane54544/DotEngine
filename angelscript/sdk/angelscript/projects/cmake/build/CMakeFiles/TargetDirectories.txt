@@ -1,0 +1,7 @@
+/Users/netanelulitszky/Desktop/DotEngine/angelscript/sdk/angelscript/projects/cmake/build/CMakeFiles/angelscript.dir
+/Users/netanelulitszky/Desktop/DotEngine/angelscript/sdk/angelscript/projects/cmake/build/CMakeFiles/edit_cache.dir
+/Users/netanelulitszky/Desktop/DotEngine/angelscript/sdk/angelscript/projects/cmake/build/CMakeFiles/rebuild_cache.dir
+/Users/netanelulitszky/Desktop/DotEngine/angelscript/sdk/angelscript/projects/cmake/build/CMakeFiles/list_install_components.dir
+/Users/netanelulitszky/Desktop/DotEngine/angelscript/sdk/angelscript/projects/cmake/build/CMakeFiles/install.dir
+/Users/netanelulitszky/Desktop/DotEngine/angelscript/sdk/angelscript/projects/cmake/build/CMakeFiles/install/local.dir
+/Users/netanelulitszky/Desktop/DotEngine/angelscript/sdk/angelscript/projects/cmake/build/CMakeFiles/install/strip.dir
