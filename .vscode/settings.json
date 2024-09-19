@@ -62,6 +62,19 @@
         "concepts": "cpp",
         "algorithm": "cpp",
         "fstream": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "__tree": "cpp",
+        "cfenv": "cpp",
+        "charconv": "cpp",
+        "deque": "cpp",
+        "iomanip": "cpp",
+        "list": "cpp",
+        "map": "cpp",
+        "set": "cpp",
+        "span": "cpp",
+        "stack": "cpp",
+        "numeric": "cpp",
+        "random": "cpp",
+        "ranges": "cpp"
     }
 }

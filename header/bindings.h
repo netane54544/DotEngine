@@ -7,7 +7,7 @@
 void RegisterGameWindow(asIScriptEngine* engine);
 
 // Declare the factory function for creating Game_Window instances
-Game_Window* GameWindowFactory(const std::string& title, int width, int height);
+Game_Window* GameWindowFactory(const std::string& title, int width, int height, bool fullscreen);
 
 // Function to register the Print function
 void RegisterPrintFunction(asIScriptEngine* engine);

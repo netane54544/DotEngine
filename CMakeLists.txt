@@ -4,10 +4,11 @@ project(DotEngine)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+add_definitions(-DGL_SILENCE_DEPRECATION)
 
 # Find GLFW package
 find_package(PkgConfig REQUIRED)
-pkg_check_modules(GLFW REQUIRED)
+find_package(GLFW3 REQUIRED)
 
 # Find GLM package
 find_package(GLM REQUIRED)
@@ -20,7 +21,6 @@ set(ANGELSCRIPT_SRC_DIR ${ANGELSCRIPT_DIR}/source)
 set(ANGELSCRIPT_LIB_DIR ${ANGELSCRIPT_DIR}/projects/cmake/build)
 
 # Include directories
-include_directories(${GLFW_INCLUDE_DIRS})
 include_directories(${GLM_INCLUDE_DIRS})
 include_directories(${ANGELSCRIPT_INCLUDE_DIR})
 include_directories(${ANGELSCRIPT_ADDON_DIR}/scriptbuilder)
@@ -57,7 +57,7 @@ file(GLOB_RECURSE SOURCE_FILES "source/*.cpp")
 add_executable(DotEngine source/main.cpp ${SOURCE_FILES} ${ADDON_SOURCES})
 
 # Link libraries for DotEngine executable (using GLFW, GLM, and AngelScript)
-target_link_libraries(DotEngine ${GLFW_LIBRARIES} ${GLM_LIBRARIES} ${ANGELSCRIPT_LIB})
+target_link_libraries(DotEngine glfw ${GLM_LIBRARIES} ${ANGELSCRIPT_LIB})
 
 # Include AngelScript headers in the target for better IDE integration
 target_include_directories(DotEngine PRIVATE ${ANGELSCRIPT_INCLUDE_DIR} ${ANGELSCRIPT_SRC_DIR})

@@ -1,0 +1,5 @@
+/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles/DotEngine.dir
+/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles/package.dir
+/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles/package_source.dir
+/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles/edit_cache.dir
+/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles/rebuild_cache.dir
