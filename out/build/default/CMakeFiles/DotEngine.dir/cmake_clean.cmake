@@ -9,6 +9,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/DotEngine.dir/source/game_window.cpp.o.d"
   "CMakeFiles/DotEngine.dir/source/main.cpp.o"
   "CMakeFiles/DotEngine.dir/source/main.cpp.o.d"
+  "CMakeFiles/DotEngine.dir/source/vector2.cpp.o"
+  "CMakeFiles/DotEngine.dir/source/vector2.cpp.o.d"
+  "CMakeFiles/DotEngine.dir/source/vector3.cpp.o"
+  "CMakeFiles/DotEngine.dir/source/vector3.cpp.o.d"
+  "CMakeFiles/DotEngine.dir/source/vector4.cpp.o"
+  "CMakeFiles/DotEngine.dir/source/vector4.cpp.o.d"
   "DotEngine"
   "DotEngine.pdb"
 )

@@ -1,10 +1,11 @@
 #pragma once
 #include <string>
 #include <GLFW/glfw3.h>
+#include "vector2.h"
+#include "vector4.h"
 
 class Game_Window
 {
-    static int width, height;
     int refCount; 
 
     static void draw();
@@ -13,17 +14,15 @@ class Game_Window
     static GLFWwindow* window;
     static bool runLoop;
 
-    Game_Window(std::string, int, int, bool);
+    Game_Window(const std::string, int, int, bool);
+    Game_Window(const std::string, Vector2, bool);
     void gameLoop();
     static void runInternalLoop();
     int getWidth();
     int getHeight();
+    void setColorRGBA(Vector4);
 
-    void AddRef() { refCount++; }
-    void Release() 
-    {
-        if (--refCount == 0) {
-            delete this;
-        }
-    }
+    void AddRef();
+    void Release();
+
 };

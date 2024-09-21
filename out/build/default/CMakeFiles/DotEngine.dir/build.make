@@ -111,10 +111,52 @@ CMakeFiles/DotEngine.dir/source/game_window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DotEngine.dir/source/game_window.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/netanelulitszky/Desktop/Git/DotEngine/source/game_window.cpp -o CMakeFiles/DotEngine.dir/source/game_window.cpp.s
 
+CMakeFiles/DotEngine.dir/source/vector2.cpp.o: CMakeFiles/DotEngine.dir/flags.make
+CMakeFiles/DotEngine.dir/source/vector2.cpp.o: /Users/netanelulitszky/Desktop/Git/DotEngine/source/vector2.cpp
+CMakeFiles/DotEngine.dir/source/vector2.cpp.o: CMakeFiles/DotEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DotEngine.dir/source/vector2.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DotEngine.dir/source/vector2.cpp.o -MF CMakeFiles/DotEngine.dir/source/vector2.cpp.o.d -o CMakeFiles/DotEngine.dir/source/vector2.cpp.o -c /Users/netanelulitszky/Desktop/Git/DotEngine/source/vector2.cpp
+
+CMakeFiles/DotEngine.dir/source/vector2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DotEngine.dir/source/vector2.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/netanelulitszky/Desktop/Git/DotEngine/source/vector2.cpp > CMakeFiles/DotEngine.dir/source/vector2.cpp.i
+
+CMakeFiles/DotEngine.dir/source/vector2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DotEngine.dir/source/vector2.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/netanelulitszky/Desktop/Git/DotEngine/source/vector2.cpp -o CMakeFiles/DotEngine.dir/source/vector2.cpp.s
+
+CMakeFiles/DotEngine.dir/source/vector3.cpp.o: CMakeFiles/DotEngine.dir/flags.make
+CMakeFiles/DotEngine.dir/source/vector3.cpp.o: /Users/netanelulitszky/Desktop/Git/DotEngine/source/vector3.cpp
+CMakeFiles/DotEngine.dir/source/vector3.cpp.o: CMakeFiles/DotEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DotEngine.dir/source/vector3.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DotEngine.dir/source/vector3.cpp.o -MF CMakeFiles/DotEngine.dir/source/vector3.cpp.o.d -o CMakeFiles/DotEngine.dir/source/vector3.cpp.o -c /Users/netanelulitszky/Desktop/Git/DotEngine/source/vector3.cpp
+
+CMakeFiles/DotEngine.dir/source/vector3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DotEngine.dir/source/vector3.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/netanelulitszky/Desktop/Git/DotEngine/source/vector3.cpp > CMakeFiles/DotEngine.dir/source/vector3.cpp.i
+
+CMakeFiles/DotEngine.dir/source/vector3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DotEngine.dir/source/vector3.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/netanelulitszky/Desktop/Git/DotEngine/source/vector3.cpp -o CMakeFiles/DotEngine.dir/source/vector3.cpp.s
+
+CMakeFiles/DotEngine.dir/source/vector4.cpp.o: CMakeFiles/DotEngine.dir/flags.make
+CMakeFiles/DotEngine.dir/source/vector4.cpp.o: /Users/netanelulitszky/Desktop/Git/DotEngine/source/vector4.cpp
+CMakeFiles/DotEngine.dir/source/vector4.cpp.o: CMakeFiles/DotEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DotEngine.dir/source/vector4.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DotEngine.dir/source/vector4.cpp.o -MF CMakeFiles/DotEngine.dir/source/vector4.cpp.o.d -o CMakeFiles/DotEngine.dir/source/vector4.cpp.o -c /Users/netanelulitszky/Desktop/Git/DotEngine/source/vector4.cpp
+
+CMakeFiles/DotEngine.dir/source/vector4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DotEngine.dir/source/vector4.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/netanelulitszky/Desktop/Git/DotEngine/source/vector4.cpp > CMakeFiles/DotEngine.dir/source/vector4.cpp.i
+
+CMakeFiles/DotEngine.dir/source/vector4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DotEngine.dir/source/vector4.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/netanelulitszky/Desktop/Git/DotEngine/source/vector4.cpp -o CMakeFiles/DotEngine.dir/source/vector4.cpp.s
+
 CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp.o: CMakeFiles/DotEngine.dir/flags.make
 CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp.o: /Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp
 CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp.o: CMakeFiles/DotEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp.o -MF CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp.o.d -o CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp.o -c /Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp
 
 CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp.i: cmake_force
@@ -128,7 +170,7 @@ CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp.
 CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptstdstring/scriptstdstring.cpp.o: CMakeFiles/DotEngine.dir/flags.make
 CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptstdstring/scriptstdstring.cpp.o: /Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/add_on/scriptstdstring/scriptstdstring.cpp
 CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptstdstring/scriptstdstring.cpp.o: CMakeFiles/DotEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptstdstring/scriptstdstring.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptstdstring/scriptstdstring.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptstdstring/scriptstdstring.cpp.o -MF CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptstdstring/scriptstdstring.cpp.o.d -o CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptstdstring/scriptstdstring.cpp.o -c /Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/add_on/scriptstdstring/scriptstdstring.cpp
 
 CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptstdstring/scriptstdstring.cpp.i: cmake_force
@@ -144,6 +186,9 @@ DotEngine_OBJECTS = \
 "CMakeFiles/DotEngine.dir/source/main.cpp.o" \
 "CMakeFiles/DotEngine.dir/source/bindings.cpp.o" \
 "CMakeFiles/DotEngine.dir/source/game_window.cpp.o" \
+"CMakeFiles/DotEngine.dir/source/vector2.cpp.o" \
+"CMakeFiles/DotEngine.dir/source/vector3.cpp.o" \
+"CMakeFiles/DotEngine.dir/source/vector4.cpp.o" \
 "CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp.o" \
 "CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptstdstring/scriptstdstring.cpp.o"
 
@@ -153,13 +198,16 @@ DotEngine_EXTERNAL_OBJECTS =
 DotEngine: CMakeFiles/DotEngine.dir/source/main.cpp.o
 DotEngine: CMakeFiles/DotEngine.dir/source/bindings.cpp.o
 DotEngine: CMakeFiles/DotEngine.dir/source/game_window.cpp.o
+DotEngine: CMakeFiles/DotEngine.dir/source/vector2.cpp.o
+DotEngine: CMakeFiles/DotEngine.dir/source/vector3.cpp.o
+DotEngine: CMakeFiles/DotEngine.dir/source/vector4.cpp.o
 DotEngine: CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp.o
 DotEngine: CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptstdstring/scriptstdstring.cpp.o
 DotEngine: CMakeFiles/DotEngine.dir/build.make
 DotEngine: /opt/homebrew/lib/libglfw.3.4.dylib
 DotEngine: /Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/angelscript/projects/cmake/build/libangelscript.a
 DotEngine: CMakeFiles/DotEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable DotEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable DotEngine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DotEngine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

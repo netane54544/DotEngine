@@ -19,6 +19,24 @@
 },
 {
   "directory": "/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default",
+  "command": "/usr/bin/clang++ -DGL_SILENCE_DEPRECATION -I/Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/angelscript/include -I/Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/add_on/scriptbuilder -I/Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/add_on/scriptstdstring -I/Users/netanelulitszky/Desktop/Git/DotEngine/header -I/Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/angelscript/source -isystem /opt/homebrew/include -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/DotEngine.dir/source/vector2.cpp.o -c /Users/netanelulitszky/Desktop/Git/DotEngine/source/vector2.cpp",
+  "file": "/Users/netanelulitszky/Desktop/Git/DotEngine/source/vector2.cpp",
+  "output": "CMakeFiles/DotEngine.dir/source/vector2.cpp.o"
+},
+{
+  "directory": "/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default",
+  "command": "/usr/bin/clang++ -DGL_SILENCE_DEPRECATION -I/Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/angelscript/include -I/Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/add_on/scriptbuilder -I/Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/add_on/scriptstdstring -I/Users/netanelulitszky/Desktop/Git/DotEngine/header -I/Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/angelscript/source -isystem /opt/homebrew/include -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/DotEngine.dir/source/vector3.cpp.o -c /Users/netanelulitszky/Desktop/Git/DotEngine/source/vector3.cpp",
+  "file": "/Users/netanelulitszky/Desktop/Git/DotEngine/source/vector3.cpp",
+  "output": "CMakeFiles/DotEngine.dir/source/vector3.cpp.o"
+},
+{
+  "directory": "/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default",
+  "command": "/usr/bin/clang++ -DGL_SILENCE_DEPRECATION -I/Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/angelscript/include -I/Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/add_on/scriptbuilder -I/Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/add_on/scriptstdstring -I/Users/netanelulitszky/Desktop/Git/DotEngine/header -I/Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/angelscript/source -isystem /opt/homebrew/include -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/DotEngine.dir/source/vector4.cpp.o -c /Users/netanelulitszky/Desktop/Git/DotEngine/source/vector4.cpp",
+  "file": "/Users/netanelulitszky/Desktop/Git/DotEngine/source/vector4.cpp",
+  "output": "CMakeFiles/DotEngine.dir/source/vector4.cpp.o"
+},
+{
+  "directory": "/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default",
   "command": "/usr/bin/clang++ -DGL_SILENCE_DEPRECATION -I/Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/angelscript/include -I/Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/add_on/scriptbuilder -I/Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/add_on/scriptstdstring -I/Users/netanelulitszky/Desktop/Git/DotEngine/header -I/Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/angelscript/source -isystem /opt/homebrew/include -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp.o -c /Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp",
   "file": "/Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp",
   "output": "CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp.o"

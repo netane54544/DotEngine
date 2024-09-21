@@ -1,2 +1,15 @@
 .DS_Store
 .vscode/c_cpp_properties.json
+out/build/default/CMakeCache.txt
+out/build/default/.cmake/api/v1/reply/cache-v2-1813c422b06933f10691.json
+out/build/default/.cmake/api/v1/reply/cache-v2-f5e7292015514e20daad.json
+out/build/default/.cmake/api/v1/reply/cmakeFiles-v1-3f04182d0e3c2ea6fd1a.json
+out/build/default/.cmake/api/v1/reply/cmakeFiles-v1-2453cfd07b1cc2b1407d.json
+out/build/default/.cmake/api/v1/reply/index-2024-09-21T10-46-12-0875.json
+out/build/default/.cmake/api/v1/reply/index-2024-09-21T16-44-42-0925.json
+out/build/default/CMakeFiles/CMakeConfigureLog.yaml
+out/build/default/CMakeFiles/Makefile.cmake
+out/build/default/CMakeFiles/3.30.3/CMakeDetermineCompilerABI_C.bin
+out/build/default/CMakeFiles/3.30.3/CMakeDetermineCompilerABI_CXX.bin
+out/build/default/CMakeFiles/DotEngine.dir/compiler_depend.internal
+out/build/default/CMakeFiles/DotEngine.dir/compiler_depend.make

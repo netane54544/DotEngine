@@ -269,6 +269,78 @@ source/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/main.cpp.s
 .PHONY : source/main.cpp.s
 
+source/vector2.o: source/vector2.cpp.o
+.PHONY : source/vector2.o
+
+# target to build an object file
+source/vector2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/vector2.cpp.o
+.PHONY : source/vector2.cpp.o
+
+source/vector2.i: source/vector2.cpp.i
+.PHONY : source/vector2.i
+
+# target to preprocess a source file
+source/vector2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/vector2.cpp.i
+.PHONY : source/vector2.cpp.i
+
+source/vector2.s: source/vector2.cpp.s
+.PHONY : source/vector2.s
+
+# target to generate assembly for a file
+source/vector2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/vector2.cpp.s
+.PHONY : source/vector2.cpp.s
+
+source/vector3.o: source/vector3.cpp.o
+.PHONY : source/vector3.o
+
+# target to build an object file
+source/vector3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/vector3.cpp.o
+.PHONY : source/vector3.cpp.o
+
+source/vector3.i: source/vector3.cpp.i
+.PHONY : source/vector3.i
+
+# target to preprocess a source file
+source/vector3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/vector3.cpp.i
+.PHONY : source/vector3.cpp.i
+
+source/vector3.s: source/vector3.cpp.s
+.PHONY : source/vector3.s
+
+# target to generate assembly for a file
+source/vector3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/vector3.cpp.s
+.PHONY : source/vector3.cpp.s
+
+source/vector4.o: source/vector4.cpp.o
+.PHONY : source/vector4.o
+
+# target to build an object file
+source/vector4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/vector4.cpp.o
+.PHONY : source/vector4.cpp.o
+
+source/vector4.i: source/vector4.cpp.i
+.PHONY : source/vector4.i
+
+# target to preprocess a source file
+source/vector4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/vector4.cpp.i
+.PHONY : source/vector4.cpp.i
+
+source/vector4.s: source/vector4.cpp.s
+.PHONY : source/vector4.s
+
+# target to generate assembly for a file
+source/vector4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/vector4.cpp.s
+.PHONY : source/vector4.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -295,6 +367,15 @@ help:
 	@echo "... source/main.o"
 	@echo "... source/main.i"
 	@echo "... source/main.s"
+	@echo "... source/vector2.o"
+	@echo "... source/vector2.i"
+	@echo "... source/vector2.s"
+	@echo "... source/vector3.o"
+	@echo "... source/vector3.i"
+	@echo "... source/vector3.s"
+	@echo "... source/vector4.o"
+	@echo "... source/vector4.i"
+	@echo "... source/vector4.s"
 .PHONY : help
 
 

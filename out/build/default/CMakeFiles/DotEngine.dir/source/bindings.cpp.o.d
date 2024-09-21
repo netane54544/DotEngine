@@ -684,7 +684,10 @@ CMakeFiles/DotEngine.dir/source/bindings.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/os/availability.h \
+  /Users/netanelulitszky/Desktop/Git/DotEngine/header/vector2.h \
+  /Users/netanelulitszky/Desktop/Git/DotEngine/header/vector4.h \
   /Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/add_on/scriptstdstring/scriptstdstring.h \
+  /Users/netanelulitszky/Desktop/Git/DotEngine/header/vector3.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__locale \

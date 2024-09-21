@@ -59,16 +59,17 @@ int main(int argc, char* argv[])
 
     // Create the AngelScript engine
     asIScriptEngine* engine = asCreateScriptEngine();
+    bool foundEx = false;
 
     // Set the message callback
     engine->SetMessageCallback(asFUNCTION(MessageCallback), 0, asCALL_CDECL);
 
-    // Register the string type
+    // Register functions to the engine
     RegisterStdString(engine);
-
-    // Register Game_Window and Print function
-    RegisterGameWindow(engine);
+    RegisterVectors(engine);
     RegisterPrintFunction(engine);
+
+    RegisterGameWindow(engine);
 
     // Load and build the script
     CScriptBuilder builder;
@@ -101,19 +102,26 @@ int main(int argc, char* argv[])
 
     asIScriptContext* ctx = engine->CreateContext();
     ctx->Prepare(func);
+    
     int r = ctx->Execute();
 
-    if (r != asEXECUTION_FINISHED) 
+    if (r == asEXECUTION_EXCEPTION)
     {
-        cerr << "Script execution failed." << endl;
+        asIScriptFunction* func = ctx->GetExceptionFunction();
+        const char* funcName = func->GetDeclaration();
+        int line = ctx->GetExceptionLineNumber();
+        const char* exceptionString = ctx->GetExceptionString();
+        foundEx = true;
 
-        if (r == asEXECUTION_EXCEPTION)
-            cerr << "Exception: " << ctx->GetExceptionString() << endl;
-        
+        cout << "Exception in function: " << funcName << endl;
+        cout << "At line: " << line << std::endl;
+        cerr << "Exception message: " << exceptionString << endl;
     }
+    
 
-    if(Game_Window::window != nullptr && Game_Window::runLoop)
-        Game_Window::runInternalLoop();
+    if(!foundEx)
+        if(Game_Window::window != nullptr && Game_Window::runLoop)
+            Game_Window::runInternalLoop();
 
     // Clean up
     ctx->Release();

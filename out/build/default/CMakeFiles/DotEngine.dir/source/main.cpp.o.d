@@ -684,6 +684,8 @@ CMakeFiles/DotEngine.dir/source/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/os/availability.h \
+  /Users/netanelulitszky/Desktop/Git/DotEngine/header/vector2.h \
+  /Users/netanelulitszky/Desktop/Git/DotEngine/header/vector4.h \
   /Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__tree \

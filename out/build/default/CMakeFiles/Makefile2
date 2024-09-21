@@ -81,12 +81,12 @@ clean: CMakeFiles/DotEngine.dir/clean
 CMakeFiles/DotEngine.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target DotEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target DotEngine"
 .PHONY : CMakeFiles/DotEngine.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DotEngine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DotEngine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles 0
 .PHONY : CMakeFiles/DotEngine.dir/rule
