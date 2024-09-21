@@ -75,6 +75,8 @@
         "stack": "cpp",
         "numeric": "cpp",
         "random": "cpp",
-        "ranges": "cpp"
-    }
+        "ranges": "cpp",
+        "regex": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }

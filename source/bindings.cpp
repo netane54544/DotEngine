@@ -1,6 +1,5 @@
 #include "bindings.h"
-#include "game_window.h"
-#include "scriptstdstring.h"  // For string registration
+#include "scriptstdstring.h"
 #include <iostream>
 
 // Factory function for Game_Window class
@@ -39,6 +38,7 @@ void RegisterGameWindow(asIScriptEngine* engine)
         asFUNCTION(GameWindowFactory), asCALL_CDECL);
     if (r < 0) std::cerr << "Failed to register Game_Window factory." << std::endl;
 
+    
     // Register the AddRef and Release behaviors for reference counting
     r = engine->RegisterObjectBehaviour("Game_Window", asBEHAVE_ADDREF, 
         "void f()", asMETHOD(Game_Window, AddRef), asCALL_THISCALL);
@@ -47,17 +47,16 @@ void RegisterGameWindow(asIScriptEngine* engine)
     r = engine->RegisterObjectBehaviour("Game_Window", asBEHAVE_RELEASE, 
         "void f()", asMETHOD(Game_Window, Release), asCALL_THISCALL);
     if (r < 0) std::cerr << "Failed to register Release." << std::endl;
+    
 
     // Register methods for Game_Window
     r = engine->RegisterObjectMethod("Game_Window", "void gameLoop()", 
         asMETHOD(Game_Window, gameLoop), asCALL_THISCALL);
     if (r < 0) std::cerr << "Failed to register gameLoop() method." << std::endl;
 
-    r = engine->RegisterObjectMethod("Game_Window", "int getWidth()", 
-        asMETHOD(Game_Window, getWidth), asCALL_THISCALL);
+    r = engine->RegisterObjectMethod("Game_Window", "int getWidth()", asMETHOD(Game_Window, getWidth), asCALL_THISCALL);
     if (r < 0) std::cerr << "Failed to register getWidth() method." << std::endl;
 
-    r = engine->RegisterObjectMethod("Game_Window", "int getHeight()", 
-        asMETHOD(Game_Window, getHeight), asCALL_THISCALL);
+    r = engine->RegisterObjectMethod("Game_Window", "int getHeight()", asMETHOD(Game_Window, getHeight), asCALL_THISCALL);
     if (r < 0) std::cerr << "Failed to register getHeight() method." << std::endl;
 }

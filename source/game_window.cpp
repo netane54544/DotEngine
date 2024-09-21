@@ -1,14 +1,16 @@
 #include "game_window.h"
 #include <iostream>
 
-
-int Game_Window::instances = 0;
+GLFWwindow* Game_Window::window = nullptr;
+bool Game_Window::runLoop = false;
 
 Game_Window::Game_Window(std::string title, int width, int height, bool fullscreen)
 {
-    this->width = width;
-    this->height = height;
+    this->refCount = 1;
     
+    if (window != nullptr)
+        throw "Error: you should create one Game_Window object";
+
     this->window = glfwCreateWindow(width, height, title.c_str(), fullscreen ? glfwGetPrimaryMonitor() : NULL, NULL);
 
     if (!window) 
@@ -17,22 +19,7 @@ Game_Window::Game_Window(std::string title, int width, int height, bool fullscre
         glfwTerminate();
     }
 
-    instances++;
     glfwMakeContextCurrent(this->window);
-}
-
-void Game_Window::AddRef()
-{
-    refCount++;
-}
-
-void Game_Window::Release()
-{
-    if (--refCount == 0) 
-    {
-        instances--;
-        delete this;
-    }
 }
 
 void Game_Window::draw()
@@ -42,8 +29,19 @@ void Game_Window::draw()
 
 void Game_Window::gameLoop() 
 {
-    if(refCount > 0)
-        throw "A window gameloop is allowed to be called only once";
+    if(runLoop)
+    {
+        std::cerr << "Error: the gameloop function must be called only once" << std::endl;
+        return;
+    }
+
+    runLoop = true;
+}
+
+void Game_Window::runInternalLoop()
+{
+    int width = 0;
+    int height = 0;
 
     while (!glfwWindowShouldClose(window)) 
     {
@@ -68,10 +66,16 @@ void Game_Window::gameLoop()
 
 int Game_Window::getWidth() 
 {
+    int width, height;
+    glfwGetFramebufferSize(window, &width, &height);
+
     return width;
 }
 
 int Game_Window::getHeight() 
 {
+    int width, height;
+    glfwGetFramebufferSize(window, &width, &height);
+
     return height;
 }

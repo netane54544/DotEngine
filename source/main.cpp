@@ -34,33 +34,8 @@ string ReadFile(const string& filename)
 
     stringstream buffer;
     buffer << file.rdbuf();
-    string script = buffer.str();
 
-    // Regex to match '[objectname].gameLoop();'
-    regex gameLoopRegex(R"((\w+)\.gameLoop\(\);)");
-
-    // Search and collect all object gameLoop() calls
-    smatch match;
-    string gameLoopCalls;
-    string modifiedScript = script;
-
-    // Remove all gameLoop() calls from their current locations and collect them
-    while (regex_search(modifiedScript, match, gameLoopRegex)) 
-    {
-        // Append the match (e.g., 'objectname.gameLoop();') to gameLoopCalls
-        gameLoopCalls += match.str() + "\n";
-
-        // Remove the gameLoop() call from the current location
-        modifiedScript = modifiedScript.replace(match.position(), match.length(), "");
-    }
-
-    // Append the gameLoop() calls to the end of the script
-    if (!gameLoopCalls.empty()) 
-    {
-        modifiedScript.append("\n" + gameLoopCalls);
-    }
-
-    return modifiedScript;
+    return buffer.str();
 }
 
 int main(int argc, char* argv[]) 
@@ -136,6 +111,9 @@ int main(int argc, char* argv[])
             cerr << "Exception: " << ctx->GetExceptionString() << endl;
         
     }
+
+    if(Game_Window::window != nullptr && Game_Window::runLoop)
+        Game_Window::runInternalLoop();
 
     // Clean up
     ctx->Release();

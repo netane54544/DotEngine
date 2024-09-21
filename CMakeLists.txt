@@ -5,6 +5,7 @@ project(DotEngine)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_definitions(-DGL_SILENCE_DEPRECATION)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # Find GLFW package
 find_package(PkgConfig REQUIRED)

@@ -1,21 +1,29 @@
 #pragma once
 #include <string>
-#include "GLFW/glfw3.h"
+#include <GLFW/glfw3.h>
 
 class Game_Window
 {
-    GLFWwindow* window = nullptr;
-    int width, height;
-    unsigned int refCount = 0;
-    static int instances;
+    static int width, height;
+    int refCount; 
 
-    void draw();
+    static void draw();
 
     public:
+    static GLFWwindow* window;
+    static bool runLoop;
+
     Game_Window(std::string, int, int, bool);
     void gameLoop();
-    void AddRef();
-    void Release();
+    static void runInternalLoop();
     int getWidth();
     int getHeight();
+
+    void AddRef() { refCount++; }
+    void Release() 
+    {
+        if (--refCount == 0) {
+            delete this;
+        }
+    }
 };
