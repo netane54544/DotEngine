@@ -682,8 +682,8 @@ CMakeFiles/DotEngine.dir/source/game_window.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/os/availability.h \
-  /Users/netanelulitszky/Desktop/Git/DotEngine/header/vector2.h \
-  /Users/netanelulitszky/Desktop/Git/DotEngine/header/vector4.h \
+  /Users/netanelulitszky/Desktop/Git/DotEngine/header/Math_H/vector2.h \
+  /Users/netanelulitszky/Desktop/Git/DotEngine/header/Math_H/vector4.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__locale \

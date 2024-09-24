@@ -2,6 +2,7 @@
 #include "scriptbuilder.h"
 #include "scriptstdstring.h"
 #include "angelscript.h"
+#include "game_window.h"
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -66,7 +67,12 @@ int main(int argc, char* argv[])
 
     // Register functions to the engine
     RegisterStdString(engine);
+    RegisterArray(engine);
     RegisterVectors(engine);
+    RegisterMatrices(engine);
+    RegisterTransform(engine);
+    RegisterObject(engine);
+    RegisterWorld(engine);
     RegisterPrintFunction(engine);
 
     RegisterGameWindow(engine);

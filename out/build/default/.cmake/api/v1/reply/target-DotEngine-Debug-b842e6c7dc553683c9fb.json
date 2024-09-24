@@ -28,25 +28,43 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 58,
+				"line" : 63,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 61,
+				"line" : 66,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 68,
+				"line" : 73,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
 				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 25,
 				"parent" : 0
 			},
 			{
@@ -76,7 +94,7 @@
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 64,
+				"line" : 69,
 				"parent" : 0
 			}
 		]
@@ -87,7 +105,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+					"fragment" : " -frtti -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
 				}
 			],
 			"defines" : 
@@ -113,11 +131,27 @@
 				},
 				{
 					"backtrace" : 8,
-					"path" : "/Users/netanelulitszky/Desktop/Git/DotEngine/header"
+					"path" : "/Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/add_on/scriptarray"
 				},
 				{
 					"backtrace" : 9,
+					"path" : "/Users/netanelulitszky/Desktop/Git/DotEngine/header"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/netanelulitszky/Desktop/Git/DotEngine/header/Math_C"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/netanelulitszky/Desktop/Git/DotEngine/header/Objects_C"
+				},
+				{
+					"backtrace" : 12,
 					"path" : "/Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/angelscript/source"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/netanelulitszky/Desktop/Git/DotEngine/glm"
 				},
 				{
 					"backtrace" : 2,
@@ -143,7 +177,13 @@
 				4,
 				5,
 				6,
-				7
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
 			]
 		}
 	],
@@ -153,7 +193,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g",
+				"fragment" : "-frtti -g",
 				"role" : "flags"
 			},
 			{
@@ -217,7 +257,13 @@
 				4,
 				5,
 				6,
-				7
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
 			]
 		}
 	],
@@ -227,6 +273,54 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "source/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/Math_C/mat3.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/Math_C/mat4.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/Math_C/vector2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/Math_C/vector3.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/Math_C/vector4.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/Objects_C/object.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/Objects_C/transfrom.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/Objects_C/world.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -244,19 +338,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "source/vector2.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "source/vector3.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "source/vector4.cpp",
+			"path" : "angelscript/sdk/add_on/scriptarray/scriptarray.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

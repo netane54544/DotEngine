@@ -149,6 +149,30 @@ DotEngine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/build
 .PHONY : DotEngine/fast
 
+angelscript/sdk/add_on/scriptarray/scriptarray.o: angelscript/sdk/add_on/scriptarray/scriptarray.cpp.o
+.PHONY : angelscript/sdk/add_on/scriptarray/scriptarray.o
+
+# target to build an object file
+angelscript/sdk/add_on/scriptarray/scriptarray.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptarray/scriptarray.cpp.o
+.PHONY : angelscript/sdk/add_on/scriptarray/scriptarray.cpp.o
+
+angelscript/sdk/add_on/scriptarray/scriptarray.i: angelscript/sdk/add_on/scriptarray/scriptarray.cpp.i
+.PHONY : angelscript/sdk/add_on/scriptarray/scriptarray.i
+
+# target to preprocess a source file
+angelscript/sdk/add_on/scriptarray/scriptarray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptarray/scriptarray.cpp.i
+.PHONY : angelscript/sdk/add_on/scriptarray/scriptarray.cpp.i
+
+angelscript/sdk/add_on/scriptarray/scriptarray.s: angelscript/sdk/add_on/scriptarray/scriptarray.cpp.s
+.PHONY : angelscript/sdk/add_on/scriptarray/scriptarray.s
+
+# target to generate assembly for a file
+angelscript/sdk/add_on/scriptarray/scriptarray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptarray/scriptarray.cpp.s
+.PHONY : angelscript/sdk/add_on/scriptarray/scriptarray.cpp.s
+
 angelscript/sdk/add_on/scriptbuilder/scriptbuilder.o: angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp.o
 .PHONY : angelscript/sdk/add_on/scriptbuilder/scriptbuilder.o
 
@@ -196,6 +220,198 @@ angelscript/sdk/add_on/scriptstdstring/scriptstdstring.s: angelscript/sdk/add_on
 angelscript/sdk/add_on/scriptstdstring/scriptstdstring.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptstdstring/scriptstdstring.cpp.s
 .PHONY : angelscript/sdk/add_on/scriptstdstring/scriptstdstring.cpp.s
+
+source/Math_C/mat3.o: source/Math_C/mat3.cpp.o
+.PHONY : source/Math_C/mat3.o
+
+# target to build an object file
+source/Math_C/mat3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/Math_C/mat3.cpp.o
+.PHONY : source/Math_C/mat3.cpp.o
+
+source/Math_C/mat3.i: source/Math_C/mat3.cpp.i
+.PHONY : source/Math_C/mat3.i
+
+# target to preprocess a source file
+source/Math_C/mat3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/Math_C/mat3.cpp.i
+.PHONY : source/Math_C/mat3.cpp.i
+
+source/Math_C/mat3.s: source/Math_C/mat3.cpp.s
+.PHONY : source/Math_C/mat3.s
+
+# target to generate assembly for a file
+source/Math_C/mat3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/Math_C/mat3.cpp.s
+.PHONY : source/Math_C/mat3.cpp.s
+
+source/Math_C/mat4.o: source/Math_C/mat4.cpp.o
+.PHONY : source/Math_C/mat4.o
+
+# target to build an object file
+source/Math_C/mat4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/Math_C/mat4.cpp.o
+.PHONY : source/Math_C/mat4.cpp.o
+
+source/Math_C/mat4.i: source/Math_C/mat4.cpp.i
+.PHONY : source/Math_C/mat4.i
+
+# target to preprocess a source file
+source/Math_C/mat4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/Math_C/mat4.cpp.i
+.PHONY : source/Math_C/mat4.cpp.i
+
+source/Math_C/mat4.s: source/Math_C/mat4.cpp.s
+.PHONY : source/Math_C/mat4.s
+
+# target to generate assembly for a file
+source/Math_C/mat4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/Math_C/mat4.cpp.s
+.PHONY : source/Math_C/mat4.cpp.s
+
+source/Math_C/vector2.o: source/Math_C/vector2.cpp.o
+.PHONY : source/Math_C/vector2.o
+
+# target to build an object file
+source/Math_C/vector2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/Math_C/vector2.cpp.o
+.PHONY : source/Math_C/vector2.cpp.o
+
+source/Math_C/vector2.i: source/Math_C/vector2.cpp.i
+.PHONY : source/Math_C/vector2.i
+
+# target to preprocess a source file
+source/Math_C/vector2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/Math_C/vector2.cpp.i
+.PHONY : source/Math_C/vector2.cpp.i
+
+source/Math_C/vector2.s: source/Math_C/vector2.cpp.s
+.PHONY : source/Math_C/vector2.s
+
+# target to generate assembly for a file
+source/Math_C/vector2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/Math_C/vector2.cpp.s
+.PHONY : source/Math_C/vector2.cpp.s
+
+source/Math_C/vector3.o: source/Math_C/vector3.cpp.o
+.PHONY : source/Math_C/vector3.o
+
+# target to build an object file
+source/Math_C/vector3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/Math_C/vector3.cpp.o
+.PHONY : source/Math_C/vector3.cpp.o
+
+source/Math_C/vector3.i: source/Math_C/vector3.cpp.i
+.PHONY : source/Math_C/vector3.i
+
+# target to preprocess a source file
+source/Math_C/vector3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/Math_C/vector3.cpp.i
+.PHONY : source/Math_C/vector3.cpp.i
+
+source/Math_C/vector3.s: source/Math_C/vector3.cpp.s
+.PHONY : source/Math_C/vector3.s
+
+# target to generate assembly for a file
+source/Math_C/vector3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/Math_C/vector3.cpp.s
+.PHONY : source/Math_C/vector3.cpp.s
+
+source/Math_C/vector4.o: source/Math_C/vector4.cpp.o
+.PHONY : source/Math_C/vector4.o
+
+# target to build an object file
+source/Math_C/vector4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/Math_C/vector4.cpp.o
+.PHONY : source/Math_C/vector4.cpp.o
+
+source/Math_C/vector4.i: source/Math_C/vector4.cpp.i
+.PHONY : source/Math_C/vector4.i
+
+# target to preprocess a source file
+source/Math_C/vector4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/Math_C/vector4.cpp.i
+.PHONY : source/Math_C/vector4.cpp.i
+
+source/Math_C/vector4.s: source/Math_C/vector4.cpp.s
+.PHONY : source/Math_C/vector4.s
+
+# target to generate assembly for a file
+source/Math_C/vector4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/Math_C/vector4.cpp.s
+.PHONY : source/Math_C/vector4.cpp.s
+
+source/Objects_C/object.o: source/Objects_C/object.cpp.o
+.PHONY : source/Objects_C/object.o
+
+# target to build an object file
+source/Objects_C/object.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/Objects_C/object.cpp.o
+.PHONY : source/Objects_C/object.cpp.o
+
+source/Objects_C/object.i: source/Objects_C/object.cpp.i
+.PHONY : source/Objects_C/object.i
+
+# target to preprocess a source file
+source/Objects_C/object.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/Objects_C/object.cpp.i
+.PHONY : source/Objects_C/object.cpp.i
+
+source/Objects_C/object.s: source/Objects_C/object.cpp.s
+.PHONY : source/Objects_C/object.s
+
+# target to generate assembly for a file
+source/Objects_C/object.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/Objects_C/object.cpp.s
+.PHONY : source/Objects_C/object.cpp.s
+
+source/Objects_C/transfrom.o: source/Objects_C/transfrom.cpp.o
+.PHONY : source/Objects_C/transfrom.o
+
+# target to build an object file
+source/Objects_C/transfrom.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/Objects_C/transfrom.cpp.o
+.PHONY : source/Objects_C/transfrom.cpp.o
+
+source/Objects_C/transfrom.i: source/Objects_C/transfrom.cpp.i
+.PHONY : source/Objects_C/transfrom.i
+
+# target to preprocess a source file
+source/Objects_C/transfrom.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/Objects_C/transfrom.cpp.i
+.PHONY : source/Objects_C/transfrom.cpp.i
+
+source/Objects_C/transfrom.s: source/Objects_C/transfrom.cpp.s
+.PHONY : source/Objects_C/transfrom.s
+
+# target to generate assembly for a file
+source/Objects_C/transfrom.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/Objects_C/transfrom.cpp.s
+.PHONY : source/Objects_C/transfrom.cpp.s
+
+source/Objects_C/world.o: source/Objects_C/world.cpp.o
+.PHONY : source/Objects_C/world.o
+
+# target to build an object file
+source/Objects_C/world.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/Objects_C/world.cpp.o
+.PHONY : source/Objects_C/world.cpp.o
+
+source/Objects_C/world.i: source/Objects_C/world.cpp.i
+.PHONY : source/Objects_C/world.i
+
+# target to preprocess a source file
+source/Objects_C/world.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/Objects_C/world.cpp.i
+.PHONY : source/Objects_C/world.cpp.i
+
+source/Objects_C/world.s: source/Objects_C/world.cpp.s
+.PHONY : source/Objects_C/world.s
+
+# target to generate assembly for a file
+source/Objects_C/world.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/Objects_C/world.cpp.s
+.PHONY : source/Objects_C/world.cpp.s
 
 source/bindings.o: source/bindings.cpp.o
 .PHONY : source/bindings.o
@@ -269,78 +485,6 @@ source/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/main.cpp.s
 .PHONY : source/main.cpp.s
 
-source/vector2.o: source/vector2.cpp.o
-.PHONY : source/vector2.o
-
-# target to build an object file
-source/vector2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/vector2.cpp.o
-.PHONY : source/vector2.cpp.o
-
-source/vector2.i: source/vector2.cpp.i
-.PHONY : source/vector2.i
-
-# target to preprocess a source file
-source/vector2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/vector2.cpp.i
-.PHONY : source/vector2.cpp.i
-
-source/vector2.s: source/vector2.cpp.s
-.PHONY : source/vector2.s
-
-# target to generate assembly for a file
-source/vector2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/vector2.cpp.s
-.PHONY : source/vector2.cpp.s
-
-source/vector3.o: source/vector3.cpp.o
-.PHONY : source/vector3.o
-
-# target to build an object file
-source/vector3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/vector3.cpp.o
-.PHONY : source/vector3.cpp.o
-
-source/vector3.i: source/vector3.cpp.i
-.PHONY : source/vector3.i
-
-# target to preprocess a source file
-source/vector3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/vector3.cpp.i
-.PHONY : source/vector3.cpp.i
-
-source/vector3.s: source/vector3.cpp.s
-.PHONY : source/vector3.s
-
-# target to generate assembly for a file
-source/vector3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/vector3.cpp.s
-.PHONY : source/vector3.cpp.s
-
-source/vector4.o: source/vector4.cpp.o
-.PHONY : source/vector4.o
-
-# target to build an object file
-source/vector4.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/vector4.cpp.o
-.PHONY : source/vector4.cpp.o
-
-source/vector4.i: source/vector4.cpp.i
-.PHONY : source/vector4.i
-
-# target to preprocess a source file
-source/vector4.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/vector4.cpp.i
-.PHONY : source/vector4.cpp.i
-
-source/vector4.s: source/vector4.cpp.s
-.PHONY : source/vector4.s
-
-# target to generate assembly for a file
-source/vector4.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DotEngine.dir/build.make CMakeFiles/DotEngine.dir/source/vector4.cpp.s
-.PHONY : source/vector4.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -352,12 +496,39 @@ help:
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... DotEngine"
+	@echo "... angelscript/sdk/add_on/scriptarray/scriptarray.o"
+	@echo "... angelscript/sdk/add_on/scriptarray/scriptarray.i"
+	@echo "... angelscript/sdk/add_on/scriptarray/scriptarray.s"
 	@echo "... angelscript/sdk/add_on/scriptbuilder/scriptbuilder.o"
 	@echo "... angelscript/sdk/add_on/scriptbuilder/scriptbuilder.i"
 	@echo "... angelscript/sdk/add_on/scriptbuilder/scriptbuilder.s"
 	@echo "... angelscript/sdk/add_on/scriptstdstring/scriptstdstring.o"
 	@echo "... angelscript/sdk/add_on/scriptstdstring/scriptstdstring.i"
 	@echo "... angelscript/sdk/add_on/scriptstdstring/scriptstdstring.s"
+	@echo "... source/Math_C/mat3.o"
+	@echo "... source/Math_C/mat3.i"
+	@echo "... source/Math_C/mat3.s"
+	@echo "... source/Math_C/mat4.o"
+	@echo "... source/Math_C/mat4.i"
+	@echo "... source/Math_C/mat4.s"
+	@echo "... source/Math_C/vector2.o"
+	@echo "... source/Math_C/vector2.i"
+	@echo "... source/Math_C/vector2.s"
+	@echo "... source/Math_C/vector3.o"
+	@echo "... source/Math_C/vector3.i"
+	@echo "... source/Math_C/vector3.s"
+	@echo "... source/Math_C/vector4.o"
+	@echo "... source/Math_C/vector4.i"
+	@echo "... source/Math_C/vector4.s"
+	@echo "... source/Objects_C/object.o"
+	@echo "... source/Objects_C/object.i"
+	@echo "... source/Objects_C/object.s"
+	@echo "... source/Objects_C/transfrom.o"
+	@echo "... source/Objects_C/transfrom.i"
+	@echo "... source/Objects_C/transfrom.s"
+	@echo "... source/Objects_C/world.o"
+	@echo "... source/Objects_C/world.i"
+	@echo "... source/Objects_C/world.s"
 	@echo "... source/bindings.o"
 	@echo "... source/bindings.i"
 	@echo "... source/bindings.s"
@@ -367,15 +538,6 @@ help:
 	@echo "... source/main.o"
 	@echo "... source/main.i"
 	@echo "... source/main.s"
-	@echo "... source/vector2.o"
-	@echo "... source/vector2.i"
-	@echo "... source/vector2.s"
-	@echo "... source/vector3.o"
-	@echo "... source/vector3.i"
-	@echo "... source/vector3.s"
-	@echo "... source/vector4.o"
-	@echo "... source/vector4.i"
-	@echo "... source/vector4.s"
 .PHONY : help
 
 

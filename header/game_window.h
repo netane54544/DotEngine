@@ -1,8 +1,8 @@
 #pragma once
 #include <string>
 #include <GLFW/glfw3.h>
-#include "vector2.h"
-#include "vector4.h"
+#include "Math_H/vector2.h"
+#include "Math_H/vector4.h"
 
 class Game_Window
 {

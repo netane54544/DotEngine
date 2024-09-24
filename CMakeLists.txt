@@ -6,27 +6,27 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_definitions(-DGL_SILENCE_DEPRECATION)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -frtti")
 
 # Find GLFW package
 find_package(PkgConfig REQUIRED)
 find_package(GLFW3 REQUIRED)
 
-# Find GLM package
-find_package(GLM REQUIRED)
-
 # AngelScript paths
 set(ANGELSCRIPT_DIR ${CMAKE_SOURCE_DIR}/angelscript/sdk/angelscript)
-set(ANGELSCRIPT_ADDON_DIR ${CMAKE_SOURCE_DIR}/angelscript/sdk/add_on)  # Path to AngelScript add-ons
+set(ANGELSCRIPT_ADDON_DIR ${CMAKE_SOURCE_DIR}/angelscript/sdk/add_on)
 set(ANGELSCRIPT_INCLUDE_DIR ${ANGELSCRIPT_DIR}/include)
 set(ANGELSCRIPT_SRC_DIR ${ANGELSCRIPT_DIR}/source)
 set(ANGELSCRIPT_LIB_DIR ${ANGELSCRIPT_DIR}/projects/cmake/build)
 
 # Include directories
-include_directories(${GLM_INCLUDE_DIRS})
 include_directories(${ANGELSCRIPT_INCLUDE_DIR})
 include_directories(${ANGELSCRIPT_ADDON_DIR}/scriptbuilder)
 include_directories(${ANGELSCRIPT_ADDON_DIR}/scriptstdstring)
+include_directories(${ANGELSCRIPT_ADDON_DIR}/scriptarray)
 include_directories(${CMAKE_SOURCE_DIR}/header)
+include_directories(${CMAKE_SOURCE_DIR}/header/Math_C)
+include_directories(${CMAKE_SOURCE_DIR}/header/Objects_C)
 
 # Check if AngelScript is built as static or shared
 if(EXISTS ${ANGELSCRIPT_LIB_DIR}/libangelscript.a)
@@ -49,19 +49,24 @@ file(GLOB_RECURSE ANGELSCRIPT_HEADERS
 file(GLOB ADDON_SOURCES
     ${ANGELSCRIPT_ADDON_DIR}/scriptbuilder/scriptbuilder.cpp
     ${ANGELSCRIPT_ADDON_DIR}/scriptstdstring/scriptstdstring.cpp
+    ${ANGELSCRIPT_ADDON_DIR}/scriptarray/scriptarray.cpp
 )
 
-# Add all source files from the "source" folder
-file(GLOB_RECURSE SOURCE_FILES "source/*.cpp")
+# Collect all source files from the project
+file(GLOB_RECURSE SOURCE_FILES
+    "source/*.cpp"
+    "source/Math_C/*.cpp"
+    "source/Objects_C/*.cpp"
+)
 
 # Add the executable, using all the source files in the "source" folder, including AngelScript if required
 add_executable(DotEngine source/main.cpp ${SOURCE_FILES} ${ADDON_SOURCES})
 
 # Link libraries for DotEngine executable (using GLFW, GLM, and AngelScript)
-target_link_libraries(DotEngine glfw ${GLM_LIBRARIES} ${ANGELSCRIPT_LIB})
+target_link_libraries(DotEngine glfw ${ANGELSCRIPT_LIB})
 
 # Include AngelScript headers in the target for better IDE integration
-target_include_directories(DotEngine PRIVATE ${ANGELSCRIPT_INCLUDE_DIR} ${ANGELSCRIPT_SRC_DIR})
+target_include_directories(DotEngine PRIVATE ${ANGELSCRIPT_INCLUDE_DIR} ${ANGELSCRIPT_SRC_DIR} ${CMAKE_SOURCE_DIR}/glm)
 
 # MacOS Specific settings for DotEngine
 if(APPLE)

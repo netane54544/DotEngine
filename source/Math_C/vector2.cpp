@@ -1,5 +1,5 @@
-#include "vector2.h"
-#include "vector3.h"
+#include "Math_H/vector2.h"
+#include "Math_H/vector3.h"
 #include <cmath>
 
 Vector2::Vector2() : x(0), y(0) {}

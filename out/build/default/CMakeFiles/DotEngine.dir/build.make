@@ -83,10 +83,122 @@ CMakeFiles/DotEngine.dir/source/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DotEngine.dir/source/main.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/netanelulitszky/Desktop/Git/DotEngine/source/main.cpp -o CMakeFiles/DotEngine.dir/source/main.cpp.s
 
+CMakeFiles/DotEngine.dir/source/Math_C/mat3.cpp.o: CMakeFiles/DotEngine.dir/flags.make
+CMakeFiles/DotEngine.dir/source/Math_C/mat3.cpp.o: /Users/netanelulitszky/Desktop/Git/DotEngine/source/Math_C/mat3.cpp
+CMakeFiles/DotEngine.dir/source/Math_C/mat3.cpp.o: CMakeFiles/DotEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DotEngine.dir/source/Math_C/mat3.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DotEngine.dir/source/Math_C/mat3.cpp.o -MF CMakeFiles/DotEngine.dir/source/Math_C/mat3.cpp.o.d -o CMakeFiles/DotEngine.dir/source/Math_C/mat3.cpp.o -c /Users/netanelulitszky/Desktop/Git/DotEngine/source/Math_C/mat3.cpp
+
+CMakeFiles/DotEngine.dir/source/Math_C/mat3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DotEngine.dir/source/Math_C/mat3.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/netanelulitszky/Desktop/Git/DotEngine/source/Math_C/mat3.cpp > CMakeFiles/DotEngine.dir/source/Math_C/mat3.cpp.i
+
+CMakeFiles/DotEngine.dir/source/Math_C/mat3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DotEngine.dir/source/Math_C/mat3.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/netanelulitszky/Desktop/Git/DotEngine/source/Math_C/mat3.cpp -o CMakeFiles/DotEngine.dir/source/Math_C/mat3.cpp.s
+
+CMakeFiles/DotEngine.dir/source/Math_C/mat4.cpp.o: CMakeFiles/DotEngine.dir/flags.make
+CMakeFiles/DotEngine.dir/source/Math_C/mat4.cpp.o: /Users/netanelulitszky/Desktop/Git/DotEngine/source/Math_C/mat4.cpp
+CMakeFiles/DotEngine.dir/source/Math_C/mat4.cpp.o: CMakeFiles/DotEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DotEngine.dir/source/Math_C/mat4.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DotEngine.dir/source/Math_C/mat4.cpp.o -MF CMakeFiles/DotEngine.dir/source/Math_C/mat4.cpp.o.d -o CMakeFiles/DotEngine.dir/source/Math_C/mat4.cpp.o -c /Users/netanelulitszky/Desktop/Git/DotEngine/source/Math_C/mat4.cpp
+
+CMakeFiles/DotEngine.dir/source/Math_C/mat4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DotEngine.dir/source/Math_C/mat4.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/netanelulitszky/Desktop/Git/DotEngine/source/Math_C/mat4.cpp > CMakeFiles/DotEngine.dir/source/Math_C/mat4.cpp.i
+
+CMakeFiles/DotEngine.dir/source/Math_C/mat4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DotEngine.dir/source/Math_C/mat4.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/netanelulitszky/Desktop/Git/DotEngine/source/Math_C/mat4.cpp -o CMakeFiles/DotEngine.dir/source/Math_C/mat4.cpp.s
+
+CMakeFiles/DotEngine.dir/source/Math_C/vector2.cpp.o: CMakeFiles/DotEngine.dir/flags.make
+CMakeFiles/DotEngine.dir/source/Math_C/vector2.cpp.o: /Users/netanelulitszky/Desktop/Git/DotEngine/source/Math_C/vector2.cpp
+CMakeFiles/DotEngine.dir/source/Math_C/vector2.cpp.o: CMakeFiles/DotEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DotEngine.dir/source/Math_C/vector2.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DotEngine.dir/source/Math_C/vector2.cpp.o -MF CMakeFiles/DotEngine.dir/source/Math_C/vector2.cpp.o.d -o CMakeFiles/DotEngine.dir/source/Math_C/vector2.cpp.o -c /Users/netanelulitszky/Desktop/Git/DotEngine/source/Math_C/vector2.cpp
+
+CMakeFiles/DotEngine.dir/source/Math_C/vector2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DotEngine.dir/source/Math_C/vector2.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/netanelulitszky/Desktop/Git/DotEngine/source/Math_C/vector2.cpp > CMakeFiles/DotEngine.dir/source/Math_C/vector2.cpp.i
+
+CMakeFiles/DotEngine.dir/source/Math_C/vector2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DotEngine.dir/source/Math_C/vector2.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/netanelulitszky/Desktop/Git/DotEngine/source/Math_C/vector2.cpp -o CMakeFiles/DotEngine.dir/source/Math_C/vector2.cpp.s
+
+CMakeFiles/DotEngine.dir/source/Math_C/vector3.cpp.o: CMakeFiles/DotEngine.dir/flags.make
+CMakeFiles/DotEngine.dir/source/Math_C/vector3.cpp.o: /Users/netanelulitszky/Desktop/Git/DotEngine/source/Math_C/vector3.cpp
+CMakeFiles/DotEngine.dir/source/Math_C/vector3.cpp.o: CMakeFiles/DotEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DotEngine.dir/source/Math_C/vector3.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DotEngine.dir/source/Math_C/vector3.cpp.o -MF CMakeFiles/DotEngine.dir/source/Math_C/vector3.cpp.o.d -o CMakeFiles/DotEngine.dir/source/Math_C/vector3.cpp.o -c /Users/netanelulitszky/Desktop/Git/DotEngine/source/Math_C/vector3.cpp
+
+CMakeFiles/DotEngine.dir/source/Math_C/vector3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DotEngine.dir/source/Math_C/vector3.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/netanelulitszky/Desktop/Git/DotEngine/source/Math_C/vector3.cpp > CMakeFiles/DotEngine.dir/source/Math_C/vector3.cpp.i
+
+CMakeFiles/DotEngine.dir/source/Math_C/vector3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DotEngine.dir/source/Math_C/vector3.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/netanelulitszky/Desktop/Git/DotEngine/source/Math_C/vector3.cpp -o CMakeFiles/DotEngine.dir/source/Math_C/vector3.cpp.s
+
+CMakeFiles/DotEngine.dir/source/Math_C/vector4.cpp.o: CMakeFiles/DotEngine.dir/flags.make
+CMakeFiles/DotEngine.dir/source/Math_C/vector4.cpp.o: /Users/netanelulitszky/Desktop/Git/DotEngine/source/Math_C/vector4.cpp
+CMakeFiles/DotEngine.dir/source/Math_C/vector4.cpp.o: CMakeFiles/DotEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DotEngine.dir/source/Math_C/vector4.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DotEngine.dir/source/Math_C/vector4.cpp.o -MF CMakeFiles/DotEngine.dir/source/Math_C/vector4.cpp.o.d -o CMakeFiles/DotEngine.dir/source/Math_C/vector4.cpp.o -c /Users/netanelulitszky/Desktop/Git/DotEngine/source/Math_C/vector4.cpp
+
+CMakeFiles/DotEngine.dir/source/Math_C/vector4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DotEngine.dir/source/Math_C/vector4.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/netanelulitszky/Desktop/Git/DotEngine/source/Math_C/vector4.cpp > CMakeFiles/DotEngine.dir/source/Math_C/vector4.cpp.i
+
+CMakeFiles/DotEngine.dir/source/Math_C/vector4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DotEngine.dir/source/Math_C/vector4.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/netanelulitszky/Desktop/Git/DotEngine/source/Math_C/vector4.cpp -o CMakeFiles/DotEngine.dir/source/Math_C/vector4.cpp.s
+
+CMakeFiles/DotEngine.dir/source/Objects_C/object.cpp.o: CMakeFiles/DotEngine.dir/flags.make
+CMakeFiles/DotEngine.dir/source/Objects_C/object.cpp.o: /Users/netanelulitszky/Desktop/Git/DotEngine/source/Objects_C/object.cpp
+CMakeFiles/DotEngine.dir/source/Objects_C/object.cpp.o: CMakeFiles/DotEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DotEngine.dir/source/Objects_C/object.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DotEngine.dir/source/Objects_C/object.cpp.o -MF CMakeFiles/DotEngine.dir/source/Objects_C/object.cpp.o.d -o CMakeFiles/DotEngine.dir/source/Objects_C/object.cpp.o -c /Users/netanelulitszky/Desktop/Git/DotEngine/source/Objects_C/object.cpp
+
+CMakeFiles/DotEngine.dir/source/Objects_C/object.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DotEngine.dir/source/Objects_C/object.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/netanelulitszky/Desktop/Git/DotEngine/source/Objects_C/object.cpp > CMakeFiles/DotEngine.dir/source/Objects_C/object.cpp.i
+
+CMakeFiles/DotEngine.dir/source/Objects_C/object.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DotEngine.dir/source/Objects_C/object.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/netanelulitszky/Desktop/Git/DotEngine/source/Objects_C/object.cpp -o CMakeFiles/DotEngine.dir/source/Objects_C/object.cpp.s
+
+CMakeFiles/DotEngine.dir/source/Objects_C/transfrom.cpp.o: CMakeFiles/DotEngine.dir/flags.make
+CMakeFiles/DotEngine.dir/source/Objects_C/transfrom.cpp.o: /Users/netanelulitszky/Desktop/Git/DotEngine/source/Objects_C/transfrom.cpp
+CMakeFiles/DotEngine.dir/source/Objects_C/transfrom.cpp.o: CMakeFiles/DotEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/DotEngine.dir/source/Objects_C/transfrom.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DotEngine.dir/source/Objects_C/transfrom.cpp.o -MF CMakeFiles/DotEngine.dir/source/Objects_C/transfrom.cpp.o.d -o CMakeFiles/DotEngine.dir/source/Objects_C/transfrom.cpp.o -c /Users/netanelulitszky/Desktop/Git/DotEngine/source/Objects_C/transfrom.cpp
+
+CMakeFiles/DotEngine.dir/source/Objects_C/transfrom.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DotEngine.dir/source/Objects_C/transfrom.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/netanelulitszky/Desktop/Git/DotEngine/source/Objects_C/transfrom.cpp > CMakeFiles/DotEngine.dir/source/Objects_C/transfrom.cpp.i
+
+CMakeFiles/DotEngine.dir/source/Objects_C/transfrom.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DotEngine.dir/source/Objects_C/transfrom.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/netanelulitszky/Desktop/Git/DotEngine/source/Objects_C/transfrom.cpp -o CMakeFiles/DotEngine.dir/source/Objects_C/transfrom.cpp.s
+
+CMakeFiles/DotEngine.dir/source/Objects_C/world.cpp.o: CMakeFiles/DotEngine.dir/flags.make
+CMakeFiles/DotEngine.dir/source/Objects_C/world.cpp.o: /Users/netanelulitszky/Desktop/Git/DotEngine/source/Objects_C/world.cpp
+CMakeFiles/DotEngine.dir/source/Objects_C/world.cpp.o: CMakeFiles/DotEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/DotEngine.dir/source/Objects_C/world.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DotEngine.dir/source/Objects_C/world.cpp.o -MF CMakeFiles/DotEngine.dir/source/Objects_C/world.cpp.o.d -o CMakeFiles/DotEngine.dir/source/Objects_C/world.cpp.o -c /Users/netanelulitszky/Desktop/Git/DotEngine/source/Objects_C/world.cpp
+
+CMakeFiles/DotEngine.dir/source/Objects_C/world.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DotEngine.dir/source/Objects_C/world.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/netanelulitszky/Desktop/Git/DotEngine/source/Objects_C/world.cpp > CMakeFiles/DotEngine.dir/source/Objects_C/world.cpp.i
+
+CMakeFiles/DotEngine.dir/source/Objects_C/world.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DotEngine.dir/source/Objects_C/world.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/netanelulitszky/Desktop/Git/DotEngine/source/Objects_C/world.cpp -o CMakeFiles/DotEngine.dir/source/Objects_C/world.cpp.s
+
 CMakeFiles/DotEngine.dir/source/bindings.cpp.o: CMakeFiles/DotEngine.dir/flags.make
 CMakeFiles/DotEngine.dir/source/bindings.cpp.o: /Users/netanelulitszky/Desktop/Git/DotEngine/source/bindings.cpp
 CMakeFiles/DotEngine.dir/source/bindings.cpp.o: CMakeFiles/DotEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DotEngine.dir/source/bindings.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/DotEngine.dir/source/bindings.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DotEngine.dir/source/bindings.cpp.o -MF CMakeFiles/DotEngine.dir/source/bindings.cpp.o.d -o CMakeFiles/DotEngine.dir/source/bindings.cpp.o -c /Users/netanelulitszky/Desktop/Git/DotEngine/source/bindings.cpp
 
 CMakeFiles/DotEngine.dir/source/bindings.cpp.i: cmake_force
@@ -100,7 +212,7 @@ CMakeFiles/DotEngine.dir/source/bindings.cpp.s: cmake_force
 CMakeFiles/DotEngine.dir/source/game_window.cpp.o: CMakeFiles/DotEngine.dir/flags.make
 CMakeFiles/DotEngine.dir/source/game_window.cpp.o: /Users/netanelulitszky/Desktop/Git/DotEngine/source/game_window.cpp
 CMakeFiles/DotEngine.dir/source/game_window.cpp.o: CMakeFiles/DotEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DotEngine.dir/source/game_window.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/DotEngine.dir/source/game_window.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DotEngine.dir/source/game_window.cpp.o -MF CMakeFiles/DotEngine.dir/source/game_window.cpp.o.d -o CMakeFiles/DotEngine.dir/source/game_window.cpp.o -c /Users/netanelulitszky/Desktop/Git/DotEngine/source/game_window.cpp
 
 CMakeFiles/DotEngine.dir/source/game_window.cpp.i: cmake_force
@@ -111,52 +223,24 @@ CMakeFiles/DotEngine.dir/source/game_window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DotEngine.dir/source/game_window.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/netanelulitszky/Desktop/Git/DotEngine/source/game_window.cpp -o CMakeFiles/DotEngine.dir/source/game_window.cpp.s
 
-CMakeFiles/DotEngine.dir/source/vector2.cpp.o: CMakeFiles/DotEngine.dir/flags.make
-CMakeFiles/DotEngine.dir/source/vector2.cpp.o: /Users/netanelulitszky/Desktop/Git/DotEngine/source/vector2.cpp
-CMakeFiles/DotEngine.dir/source/vector2.cpp.o: CMakeFiles/DotEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DotEngine.dir/source/vector2.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DotEngine.dir/source/vector2.cpp.o -MF CMakeFiles/DotEngine.dir/source/vector2.cpp.o.d -o CMakeFiles/DotEngine.dir/source/vector2.cpp.o -c /Users/netanelulitszky/Desktop/Git/DotEngine/source/vector2.cpp
+CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptarray/scriptarray.cpp.o: CMakeFiles/DotEngine.dir/flags.make
+CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptarray/scriptarray.cpp.o: /Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/add_on/scriptarray/scriptarray.cpp
+CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptarray/scriptarray.cpp.o: CMakeFiles/DotEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptarray/scriptarray.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptarray/scriptarray.cpp.o -MF CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptarray/scriptarray.cpp.o.d -o CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptarray/scriptarray.cpp.o -c /Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/add_on/scriptarray/scriptarray.cpp
 
-CMakeFiles/DotEngine.dir/source/vector2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DotEngine.dir/source/vector2.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/netanelulitszky/Desktop/Git/DotEngine/source/vector2.cpp > CMakeFiles/DotEngine.dir/source/vector2.cpp.i
+CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptarray/scriptarray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptarray/scriptarray.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/add_on/scriptarray/scriptarray.cpp > CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptarray/scriptarray.cpp.i
 
-CMakeFiles/DotEngine.dir/source/vector2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DotEngine.dir/source/vector2.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/netanelulitszky/Desktop/Git/DotEngine/source/vector2.cpp -o CMakeFiles/DotEngine.dir/source/vector2.cpp.s
-
-CMakeFiles/DotEngine.dir/source/vector3.cpp.o: CMakeFiles/DotEngine.dir/flags.make
-CMakeFiles/DotEngine.dir/source/vector3.cpp.o: /Users/netanelulitszky/Desktop/Git/DotEngine/source/vector3.cpp
-CMakeFiles/DotEngine.dir/source/vector3.cpp.o: CMakeFiles/DotEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DotEngine.dir/source/vector3.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DotEngine.dir/source/vector3.cpp.o -MF CMakeFiles/DotEngine.dir/source/vector3.cpp.o.d -o CMakeFiles/DotEngine.dir/source/vector3.cpp.o -c /Users/netanelulitszky/Desktop/Git/DotEngine/source/vector3.cpp
-
-CMakeFiles/DotEngine.dir/source/vector3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DotEngine.dir/source/vector3.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/netanelulitszky/Desktop/Git/DotEngine/source/vector3.cpp > CMakeFiles/DotEngine.dir/source/vector3.cpp.i
-
-CMakeFiles/DotEngine.dir/source/vector3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DotEngine.dir/source/vector3.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/netanelulitszky/Desktop/Git/DotEngine/source/vector3.cpp -o CMakeFiles/DotEngine.dir/source/vector3.cpp.s
-
-CMakeFiles/DotEngine.dir/source/vector4.cpp.o: CMakeFiles/DotEngine.dir/flags.make
-CMakeFiles/DotEngine.dir/source/vector4.cpp.o: /Users/netanelulitszky/Desktop/Git/DotEngine/source/vector4.cpp
-CMakeFiles/DotEngine.dir/source/vector4.cpp.o: CMakeFiles/DotEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DotEngine.dir/source/vector4.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DotEngine.dir/source/vector4.cpp.o -MF CMakeFiles/DotEngine.dir/source/vector4.cpp.o.d -o CMakeFiles/DotEngine.dir/source/vector4.cpp.o -c /Users/netanelulitszky/Desktop/Git/DotEngine/source/vector4.cpp
-
-CMakeFiles/DotEngine.dir/source/vector4.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DotEngine.dir/source/vector4.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/netanelulitszky/Desktop/Git/DotEngine/source/vector4.cpp > CMakeFiles/DotEngine.dir/source/vector4.cpp.i
-
-CMakeFiles/DotEngine.dir/source/vector4.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DotEngine.dir/source/vector4.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/netanelulitszky/Desktop/Git/DotEngine/source/vector4.cpp -o CMakeFiles/DotEngine.dir/source/vector4.cpp.s
+CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptarray/scriptarray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptarray/scriptarray.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/add_on/scriptarray/scriptarray.cpp -o CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptarray/scriptarray.cpp.s
 
 CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp.o: CMakeFiles/DotEngine.dir/flags.make
 CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp.o: /Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp
 CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp.o: CMakeFiles/DotEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp.o -MF CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp.o.d -o CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp.o -c /Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp
 
 CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp.i: cmake_force
@@ -170,7 +254,7 @@ CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp.
 CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptstdstring/scriptstdstring.cpp.o: CMakeFiles/DotEngine.dir/flags.make
 CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptstdstring/scriptstdstring.cpp.o: /Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/add_on/scriptstdstring/scriptstdstring.cpp
 CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptstdstring/scriptstdstring.cpp.o: CMakeFiles/DotEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptstdstring/scriptstdstring.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptstdstring/scriptstdstring.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptstdstring/scriptstdstring.cpp.o -MF CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptstdstring/scriptstdstring.cpp.o.d -o CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptstdstring/scriptstdstring.cpp.o -c /Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/add_on/scriptstdstring/scriptstdstring.cpp
 
 CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptstdstring/scriptstdstring.cpp.i: cmake_force
@@ -184,11 +268,17 @@ CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptstdstring/scriptstdstring.
 # Object files for target DotEngine
 DotEngine_OBJECTS = \
 "CMakeFiles/DotEngine.dir/source/main.cpp.o" \
+"CMakeFiles/DotEngine.dir/source/Math_C/mat3.cpp.o" \
+"CMakeFiles/DotEngine.dir/source/Math_C/mat4.cpp.o" \
+"CMakeFiles/DotEngine.dir/source/Math_C/vector2.cpp.o" \
+"CMakeFiles/DotEngine.dir/source/Math_C/vector3.cpp.o" \
+"CMakeFiles/DotEngine.dir/source/Math_C/vector4.cpp.o" \
+"CMakeFiles/DotEngine.dir/source/Objects_C/object.cpp.o" \
+"CMakeFiles/DotEngine.dir/source/Objects_C/transfrom.cpp.o" \
+"CMakeFiles/DotEngine.dir/source/Objects_C/world.cpp.o" \
 "CMakeFiles/DotEngine.dir/source/bindings.cpp.o" \
 "CMakeFiles/DotEngine.dir/source/game_window.cpp.o" \
-"CMakeFiles/DotEngine.dir/source/vector2.cpp.o" \
-"CMakeFiles/DotEngine.dir/source/vector3.cpp.o" \
-"CMakeFiles/DotEngine.dir/source/vector4.cpp.o" \
+"CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptarray/scriptarray.cpp.o" \
 "CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp.o" \
 "CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptstdstring/scriptstdstring.cpp.o"
 
@@ -196,18 +286,24 @@ DotEngine_OBJECTS = \
 DotEngine_EXTERNAL_OBJECTS =
 
 DotEngine: CMakeFiles/DotEngine.dir/source/main.cpp.o
+DotEngine: CMakeFiles/DotEngine.dir/source/Math_C/mat3.cpp.o
+DotEngine: CMakeFiles/DotEngine.dir/source/Math_C/mat4.cpp.o
+DotEngine: CMakeFiles/DotEngine.dir/source/Math_C/vector2.cpp.o
+DotEngine: CMakeFiles/DotEngine.dir/source/Math_C/vector3.cpp.o
+DotEngine: CMakeFiles/DotEngine.dir/source/Math_C/vector4.cpp.o
+DotEngine: CMakeFiles/DotEngine.dir/source/Objects_C/object.cpp.o
+DotEngine: CMakeFiles/DotEngine.dir/source/Objects_C/transfrom.cpp.o
+DotEngine: CMakeFiles/DotEngine.dir/source/Objects_C/world.cpp.o
 DotEngine: CMakeFiles/DotEngine.dir/source/bindings.cpp.o
 DotEngine: CMakeFiles/DotEngine.dir/source/game_window.cpp.o
-DotEngine: CMakeFiles/DotEngine.dir/source/vector2.cpp.o
-DotEngine: CMakeFiles/DotEngine.dir/source/vector3.cpp.o
-DotEngine: CMakeFiles/DotEngine.dir/source/vector4.cpp.o
+DotEngine: CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptarray/scriptarray.cpp.o
 DotEngine: CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptbuilder/scriptbuilder.cpp.o
 DotEngine: CMakeFiles/DotEngine.dir/angelscript/sdk/add_on/scriptstdstring/scriptstdstring.cpp.o
 DotEngine: CMakeFiles/DotEngine.dir/build.make
 DotEngine: /opt/homebrew/lib/libglfw.3.4.dylib
 DotEngine: /Users/netanelulitszky/Desktop/Git/DotEngine/angelscript/sdk/angelscript/projects/cmake/build/libangelscript.a
 DotEngine: CMakeFiles/DotEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable DotEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/netanelulitszky/Desktop/Git/DotEngine/out/build/default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable DotEngine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DotEngine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
